@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world! sss</h1>
-      <h2> probando</h2>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1>El imperio contraataca</h1>
+    <h2> Las tropas del imperio encontraron nuestro cuartel de Alianza Rebelde. <br /> Para Contrarrestarlos, nos
+      comunicaremos por medio del cifrado César. <br /> Que la fuerza te acompañe</h2>
+  </div>
+
+  <input type="button" value="Siguiente">
+  
+
+
+<div id="prologue">
+
+  <h1> Método de uso</h1>
+  <h2> El cifrado César consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado
+    de posiciones (clave). Por ejemplo, si desplazamos 1 posición, reemplazaríamos la letra A con la B, la B con la C, y
+    así sucesivamente hasta sustituir la Z por la A.</h2>
+
+  <input type="button" value="Empezar">
+
+<div id="Cipher1">
+
+  <h1> Inserta acá tu mensaje</h1>
+
+  <form> 
+    <textarea name="mensaje" id="message" cols="30" rows="10"></textarea>
+
+    <h3> Número de clave
+      <input type="text" name="numero" />
+    </h3>
+
+  </form>
+  <input type="button" value="cifrar">
+  <input type="button" value="Descifrar">
+
+  <h2> Resultado</h2>
+  <textarea name="resultado" id="result" cols="30" rows="10"></textarea>
+
+
+
+
+
+  <script src="index.js" type="module"></script>
+</body>
 </html>
