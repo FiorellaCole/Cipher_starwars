@@ -5,50 +5,63 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+
+ 
 </head>
 
 <body>
-  <div id="root">
-    <h1>El imperio contraataca</h1>
-    <h2> Las tropas del imperio encontraron nuestro cuartel de Alianza Rebelde. <br /> Para Contrarrestarlos, nos
-      comunicaremos por medio del cifrado César. <br /> Que la fuerza te acompañe</h2>
-  </div>
+  <section class= "caratula" id="pantalla1"> 
+  <p id="header">
+  <img src="https://fontmeme.com/permalink/220524/67d479bb87e305049dd416e343bff177.png"> 
+  </p>
+   <div class="inicio">
+    
+      <h2> Las tropas del imperio encontraron nuestro cuartel de Alianza Rebelde. <br /> Para Contrarrestarlos, nos
+        comunicaremos por medio del cifrado César. <br /> <br /> <strong id="fuerte"> ¡Que la fuerza te acompañe!</strong> </h2>
+    
 
-  <input type="button" value="Siguiente">
+    </div>
+
+    <input type="button" class="boton" id= "siguiente" value="Siguiente">
+  </section>
+
+  <section id="pantalla2">
   
+    <img id= "imagen2" src="https://fontmeme.com/permalink/220524/5c75f80f027d6a5aaadfe6f5e4a9984b.png"> 
 
+    <div id="texto1">
 
-<div id="prologue">
+        <p class="inicio" id="texto2"> El cifrado César consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado
+        de posiciones (clave). Por ejemplo, si desplazamos 1 posición, reemplazaríamos la letra A con la B, la B con la C, y
+        así sucesivamente hasta sustituir la Z por la A. </p>
+    
 
-  <h1> Método de uso</h1>
-  <h2> El cifrado César consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado
-    de posiciones (clave). Por ejemplo, si desplazamos 1 posición, reemplazaríamos la letra A con la B, la B con la C, y
-    así sucesivamente hasta sustituir la Z por la A.</h2>
+        <input type="button" class="boton" id="empezar" value="Empezar">
+     </div>
+    </section>
 
-  <input type="button" value="Empezar">
+    <section id="pantalla3">
+     <div id="Cipher1">
 
-<div id="Cipher1">
+        <h1> Inserta acá tu mensaje</h1>
 
-  <h1> Inserta acá tu mensaje</h1>
+        <form > 
+          <textarea type="text" name="mensaje" id="mensaje"> </textarea>
 
-  <form> 
-    <textarea name="mensaje" id="message" cols="30" rows="10"></textarea>
+        <h3> Desplazamiento:    </h3>
+          <input   type="number" id="offset" size="4"/>
+        
+          </form><br/>
 
-    <h3> Número de clave
-      <input type="text" name="numero" />
-    </h3>
+          <input type="button" value="cifrar" id="cifrar">
+          <input type="button" value="descifrar" id="descifrar">
 
-  </form>
-  <input type="button" value="cifrar">
-  <input type="button" value="Descifrar">
+        <h2> Resultado: </h2>
+        
+          <textarea id="resultado" type="text"> </textarea>
+        </div>
+    </section>
 
-  <h2> Resultado</h2>
-  <textarea name="resultado" id="result" cols="30" rows="10"></textarea>
-
-
-
-
-
-  <script src="index.js" type="module"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
