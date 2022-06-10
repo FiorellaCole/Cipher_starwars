@@ -48,7 +48,7 @@ De utilizaron fuentes de la película para hacer los títulos más llamativos, y
 
 En cuestión de Javascript se utilizaron variales globales y locales, condicionales, funciones, addEventlisteners, se utilizó el DOM, bucles for y condicionales ternarios.
 
-<img src= "https://tenor.com/view/the-force-ahsoka-tano-ezra-bridger-star-wars-star-wars-rebels-gif-18519414">
+<img src= "https://i.ibb.co/nL7PdzJ/itsatrap.jpg">
 
 
 
