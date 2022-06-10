@@ -4,6 +4,7 @@ const cipher = {
         let resultado="";
         let mensaje="";
         offset=parseInt(offset);
+
       if(string !="" && offset !="" && string != " " && offset != 0){
         for(let i=0; i<string.length;i++){
           let posicion = string.charCodeAt(i);         
@@ -18,7 +19,7 @@ const cipher = {
         }    
         return resultado;
       }else{
-        throw new TypeError("Valores no aceptados");
+        throw new TypeError();
       }
     },
     decode: (offset, string) => {

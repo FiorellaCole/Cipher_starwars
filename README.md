@@ -42,6 +42,14 @@ De igual forma, puede descifrar, utilizando el botón descifrar.
 
 <img src="https://i.ibb.co/NNXkZpd/344.jpg">
 
+Decisiones de diseño:
+
+De utilizaron fuentes de la película para hacer los títulos más llamativos, y combinar los botones con tonalidades grises para que combine con el fondo, adicionalmene se utilizó un display flex para que se ajuste el fondo a los cambios de pantalla y un border box para que se mantenga en orden.
+
+En cuestión de Javascript se utilizaron variales globales y locales, condicionales, funciones, addEventlisteners, se utilizó el DOM, bucles for y condicionales ternarios.
+
+<img src= "https://tenor.com/view/the-force-ahsoka-tano-ezra-bridger-star-wars-star-wars-rebels-gif-18519414">
+
 
 
 

@@ -21,17 +21,17 @@ document.querySelector("#empezar").addEventListener("click", () => {
 
 
 function validationoffSet() {
-  return document.getElementById("offset").value == "" ? alert("Ingresa los valores") : document.getElementById("offset").value;
+  return document.getElementById("offset").value == "" ? alert("Debes agregar un número de desplazamiento") : document.getElementById("offset").value;
 }
 
 function validartextoCifrado() {
-  return document.getElementById("mensaje").value == "" ? alert("Ingresa el texto a cifrar") : document.getElementById("mensaje").value;
+  return document.getElementById("mensaje").value === "" ? alert("Ingresa el texto") : document.getElementById("mensaje").value;
 }
 
 
 function cifrar() {
-  validationoffSet()
   validartextoCifrado()
+  validationoffSet()
   const mensajeACifrar = document.getElementById("mensaje").value;
   const offset = document.getElementById("offset").value;
   document.getElementById("resultado").innerHTML = cipher.encode(offset, mensajeACifrar);
