@@ -5,7 +5,7 @@ const cipher = {
         let mensaje="";
         offset=parseInt(offset);
 
-      if(string !="" && offset !="" && string != " " && offset != 0){
+      if(string !="" && offset !="" && offset != 0){
         for(let i=0; i<string.length;i++){
           let posicion = string.charCodeAt(i);         
           if (posicion >= 65 && posicion <= 90) {
@@ -27,7 +27,7 @@ const cipher = {
       let mensajeDesencriptado = "";
       offset= parseInt(offset);
 
-    if(string !="" && offset !="" && string != " " && offset != 0){
+    if(string !="" && offset !="" && offset != 0){
       for (let i = 0; i < string.length; i++){
         let posicion = string.charCodeAt(i);   
         if (posicion >= 65 && posicion <= 90) {  // mayusculas
