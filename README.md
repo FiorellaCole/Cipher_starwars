@@ -9,7 +9,7 @@
 
 ## 1. Preámbulo
 
-Me basé para realizar el proyecta en la idea de Star wars, el concepto se da en el escenario de la película de El imperio contraataca, en la cual se ve la aparición de los rebeldes alejados y reunidos para contrarestar al imperio.
+Me basé para realizar el proyecta en la idea de Star wars, el concepto se da en el escenario de la película de El imperio contraataca, en la cual se ve la aparición de los rebeldes alejados y reunidos para contrarrestar al imperio.
 
 Bajo esta premisa, se eligio como usuario de la página un soldado de la tropa rebelde.
 
