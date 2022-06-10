@@ -5,24 +5,19 @@
     display: none;
   }
 
-
 *{
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Rajdhani', sans-serif;
-    background-image: url(https://i.ibb.co/BB7nSw6/PCXWBSDJLBF2-ZLGYM6-WOOLAVJQ.webp);
-   
+    background-image: url(https://i.ibb.co/BB7nSw6/PCXWBSDJLBF2-ZLGYM6-WOOLAVJQ.webp); 
     background-size: 100%;
     display: flex;
     align-items:center;
     justify-content: center;
-    margin:50px;
-  
+    margin:50px;  
 }
-
 
   .inicio{
      
@@ -41,8 +36,15 @@ body {
     height: 200px;
     margin:100px;
     text-align:center;
-    line-height: 200%;
-    
+    line-height: 200%;   
+  }
+
+  #nombre{
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(247, 253, 253, 60%);
+
   }
 
   #fuerte{
@@ -53,7 +55,6 @@ body {
   #imagen2{
     position: relative;
     left: 20%;
-
   }
 
   .boton{
@@ -78,14 +79,12 @@ body {
     }
 
     .boton:hover{
-        background-color: rgba(133, 176, 77, 0.501);
-       
+        background-color: rgba(133, 176, 77, 0.501);     
       }
       
     .boton:focus{
           outline:none;
           background-color: rgba(176, 83, 50, 0.501);
-
       }
 
     #texto2{
@@ -95,7 +94,6 @@ body {
       }
 
     #pantalla3 {
-
     width:400px;
     height: auto;
     overflow:hidden;
@@ -107,6 +105,37 @@ body {
     border-radius: 20px;
     font-weight: bold;
     background-color: rgb(247, 253, 253, 60%);
+    }
+
+    .imput {
+        border-radius: 5px;
+        background-color: rgb(206, 215, 225);
+        width:240px;
+        height:50px;
+      }
+
+    .boton1{
+      background-color:rgba(78, 76, 45, 0.608);
+      color: #ffffff;
+      border-radius: 10px;
+      transition: .3s all ease;
+      border: none;
+      font-size: 15px;
+      margin: auto;
+      padding: 10px;
+    }
+    .boton1:hover{
+      background-color: rgba(133, 176, 77, 0.501);     
+    }
+    
+  .boton1:focus{
+        outline:none;
+        background-color: rgba(176, 83, 50, 0.501);
+    }
+   
+    .numero{
+      background-color: rgb(247, 253, 253, 60%);
+        -webkit-appearance: none;
     }
     
     
